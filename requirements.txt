@@ -1,0 +1,5 @@
+gym==0.26.2
+numpy==1.19.2
+scikit_learn==1.2.1
+scipy==1.6.2
+torch==1.5.1
