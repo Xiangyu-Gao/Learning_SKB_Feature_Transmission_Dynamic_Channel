@@ -22,8 +22,8 @@ A Deep-Reinforcement Learning Approach for Intelligent Multi-Level Feature Trans
 With the proliferation of edge computing, efficient AI inference on edge devices has become essential for intelligent applications such as autonomous vehicles and VR/AR. In this context, we address the problem of efficient remote object recognition by optimizing feature transmission between mobile devices and edge servers. We propose an optimization framework to tackle the challenges posed by dynamic channel conditions and device mobility in end-to-end communication systems. Our approach builds upon existing methods by leveraging a semantic knowledge base to drive multi-level feature transmission, accounting for temporal factors, state transitions, and dynamic elements throughout the transmission process. Additionally, we enhance the multi-level feature transmission policy by introducing an additional 5th-level edge-assisted semantic communication, which maximizes recognition performance by leveraging a large SKB on the edge server. Formulated as an online optimization problem, our framework aims to simultaneously minimize semantic loss and adhere to specified transmission latency thresholds. To achieve this, we design a soft actor-critic-based deep reinforcement learning system with a carefully designed reward structure for real-time decision-making. This approach overcomes the optimization difficulty of the NP-hard problem while fulfilling the optimization objectives. Numerical results showcase the superiority of our approach compared to traditional greedy methods across various system setups using open-source datasets.
 
 ## Requirements
-*   Python 3.6
-*   Preferred system: Linux
+*   Python 3.8.18
+*   Preferred system: Linux (Note that the format of directory in wins system might be different).
 *   Pytorch-1.5.1
 *   Other packages (refer to [`requirement`](requirements.txt))
 
